@@ -1,0 +1,11 @@
+framework module AVSinchSDK {
+  umbrella header "AVSinchSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AVSinchSDK.Swift {
+  header "AVSinchSDK-Swift.h"
+  requires objc
+}

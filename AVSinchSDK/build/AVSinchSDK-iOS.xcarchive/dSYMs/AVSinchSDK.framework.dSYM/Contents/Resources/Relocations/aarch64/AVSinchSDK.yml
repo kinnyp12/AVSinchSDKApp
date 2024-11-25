@@ -1,0 +1,58 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kinnypadia/Library/Developer/Xcode/DerivedData/AVSinchSDK-dortpdeiejzyklgbvmgainywpeku/ArchiveIntermediates/AVSinchSDK/InstallationBuildProductsLocation/Library/Frameworks/AVSinchSDK.framework/AVSinchSDK'
+relocations:
+  - { offset: 0x74485, size: 0x8, addend: 0x0, symName: _AVSinchSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x776100, symSize: 0x0 }
+  - { offset: 0x744BA, size: 0x8, addend: 0x0, symName: _AVSinchSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x776130, symSize: 0x0 }
+  - { offset: 0x7451F, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6sharedACvpZ', symObjAddr: 0x2268, symBinAddr: 0x8EF4C8, symSize: 0x0 }
+  - { offset: 0x746C2, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x30 }
+  - { offset: 0x746DC, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCMa', symObjAddr: 0x30, symBinAddr: 0x4030, symSize: 0x24 }
+  - { offset: 0x746F0, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6sharedACvau', symObjAddr: 0x78, symBinAddr: 0x4078, symSize: 0x54 }
+  - { offset: 0x7470E, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvpACTK', symObjAddr: 0x26C, symBinAddr: 0x426C, symSize: 0x5C }
+  - { offset: 0x74726, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvpACTk', symObjAddr: 0x2C8, symBinAddr: 0x42C8, symSize: 0x70 }
+  - { offset: 0x7473E, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchCallDelegate_pSgWOh', symObjAddr: 0x5AC, symBinAddr: 0x45AC, symSize: 0x28 }
+  - { offset: 0x74752, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCfETo', symObjAddr: 0xF40, symBinAddr: 0x4F18, symSize: 0x48 }
+  - { offset: 0x74780, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchCallDelegate_pSgXwWOh', symObjAddr: 0xF88, symBinAddr: 0x4F60, symSize: 0x24 }
+  - { offset: 0x74794, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC14clientDidStartyySo9SINClient_pSgF', symObjAddr: 0xFAC, symBinAddr: 0x4F84, symSize: 0xDC }
+  - { offset: 0x747D1, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC14clientDidStartyySo9SINClient_pSgFTo', symObjAddr: 0x1120, symBinAddr: 0x50F8, symSize: 0x54 }
+  - { offset: 0x747ED, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC13clientDidFail_5errorySo9SINClient_pSg_s5Error_pSgtF', symObjAddr: 0x1174, symBinAddr: 0x514C, symSize: 0x280 }
+  - { offset: 0x74839, size: 0x8, addend: 0x0, symName: '_$sSSWOh', symObjAddr: 0x13F4, symBinAddr: 0x53CC, symSize: 0x28 }
+  - { offset: 0x7484D, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC13clientDidFail_5errorySo9SINClient_pSg_s5Error_pSgtFTo', symObjAddr: 0x1444, symBinAddr: 0x53F4, symSize: 0xA8 }
+  - { offset: 0x74869, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC15callDidProgressyySo7SINCall_pSgF', symObjAddr: 0x14EC, symBinAddr: 0x549C, symSize: 0xDC }
+  - { offset: 0x748A6, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC15callDidProgressyySo7SINCall_pSgFTo', symObjAddr: 0x15C8, symBinAddr: 0x5578, symSize: 0x54 }
+  - { offset: 0x748C2, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC16callDidEstablishyySo7SINCall_pSgF', symObjAddr: 0x161C, symBinAddr: 0x55CC, symSize: 0x210 }
+  - { offset: 0x748FF, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC16callDidEstablishyySo7SINCall_pSgFTo', symObjAddr: 0x182C, symBinAddr: 0x57DC, symSize: 0x54 }
+  - { offset: 0x7491B, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC10callDidEndyySo7SINCall_pSgF', symObjAddr: 0x1880, symBinAddr: 0x5830, symSize: 0x214 }
+  - { offset: 0x74958, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC10callDidEndyySo7SINCall_pSgFTo', symObjAddr: 0x1A94, symBinAddr: 0x5A44, symSize: 0x54 }
+  - { offset: 0x74974, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6client_22didReceiveIncomingCallySo13SINCallClient_pSg_So0J0_pSgtF', symObjAddr: 0x1AE8, symBinAddr: 0x5A98, symSize: 0x51C }
+  - { offset: 0x749C0, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6client_22didReceiveIncomingCallySo13SINCallClient_pSg_So0J0_pSgtFTo', symObjAddr: 0x202C, symBinAddr: 0x5FB4, symSize: 0x6C }
+  - { offset: 0x749DC, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchCallDelegate_pSgWOc', symObjAddr: 0x2204, symBinAddr: 0x618C, symSize: 0x44 }
+  - { offset: 0x749F0, size: 0x8, addend: 0x0, symName: '_$sSa12_endMutationyyF', symObjAddr: 0x2248, symBinAddr: 0x61D0, symSize: 0xC }
+  - { offset: 0x74A20, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCACycfC', symObjAddr: 0x54, symBinAddr: 0x4054, symSize: 0x24 }
+  - { offset: 0x74A34, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC6sharedACvgZ', symObjAddr: 0xCC, symBinAddr: 0x40CC, symSize: 0x34 }
+  - { offset: 0x74A9D, size: 0x8, addend: 0x0, symName: '_$ss27_finalizeUninitializedArrayySayxGABnlF', symObjAddr: 0x1088, symBinAddr: 0x5060, symSize: 0x40 }
+  - { offset: 0x74AC7, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA0_', symObjAddr: 0x10C8, symBinAddr: 0x50A0, symSize: 0x2C }
+  - { offset: 0x74AE3, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA1_', symObjAddr: 0x10F4, symBinAddr: 0x50CC, symSize: 0x2C }
+  - { offset: 0x74B74, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC11sinchClient33_F8B4715004E8AFFC6DF63ECC0E8744E9LLSo9SINClient_pSgvg', symObjAddr: 0x100, symBinAddr: 0x4100, symSize: 0x64 }
+  - { offset: 0x74B9E, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC11sinchClient33_F8B4715004E8AFFC6DF63ECC0E8744E9LLSo9SINClient_pSgvs', symObjAddr: 0x164, symBinAddr: 0x4164, symSize: 0x7C }
+  - { offset: 0x74BD1, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC11sinchClient33_F8B4715004E8AFFC6DF63ECC0E8744E9LLSo9SINClient_pSgvM', symObjAddr: 0x1E0, symBinAddr: 0x41E0, symSize: 0x50 }
+  - { offset: 0x74BF5, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC11sinchClient33_F8B4715004E8AFFC6DF63ECC0E8744E9LLSo9SINClient_pSgvM.resume.0', symObjAddr: 0x230, symBinAddr: 0x4230, symSize: 0x3C }
+  - { offset: 0x74C16, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvg', symObjAddr: 0x338, symBinAddr: 0x4338, symSize: 0x74 }
+  - { offset: 0x74C3A, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvs', symObjAddr: 0x3AC, symBinAddr: 0x43AC, symSize: 0x90 }
+  - { offset: 0x74C6D, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvM', symObjAddr: 0x43C, symBinAddr: 0x443C, symSize: 0x98 }
+  - { offset: 0x74C91, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvM.resume.0', symObjAddr: 0x4D4, symBinAddr: 0x44D4, symSize: 0xD8 }
+  - { offset: 0x74CB2, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC10initialize6appKey0F6Secret15environmentHost6userIdySS_S3StF', symObjAddr: 0x5D4, symBinAddr: 0x45D4, symSize: 0x3BC }
+  - { offset: 0x74D14, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC14startVideoCall2toSo7SINCall_pSgSS_tF', symObjAddr: 0x9B8, symBinAddr: 0x4990, symSize: 0x230 }
+  - { offset: 0x74DA3, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerC14startAudioCall2toSo7SINCall_pSgSS_tF', symObjAddr: 0xBE8, symBinAddr: 0x4BC0, symSize: 0x230 }
+  - { offset: 0x74DF4, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCACycfc', symObjAddr: 0xE18, symBinAddr: 0x4DF0, symSize: 0xC0 }
+  - { offset: 0x74E18, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCACycfcTo', symObjAddr: 0xED8, symBinAddr: 0x4EB0, symSize: 0x20 }
+  - { offset: 0x74E2C, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK12SinchManagerCfD', symObjAddr: 0xEF8, symBinAddr: 0x4ED0, symSize: 0x48 }
+  - { offset: 0x74F7B, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerC15videoControllerACSo08SINVideoG0_pSg_tcfC', symObjAddr: 0x0, symBinAddr: 0x61DC, symSize: 0x48 }
+  - { offset: 0x75038, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerCMa', symObjAddr: 0x3E4, symBinAddr: 0x6598, symSize: 0x24 }
+  - { offset: 0x75081, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerC15videoControllerACSo08SINVideoG0_pSg_tcfC', symObjAddr: 0x0, symBinAddr: 0x61DC, symSize: 0x48 }
+  - { offset: 0x75095, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerC15videoControllerACSo08SINVideoG0_pSg_tcfc', symObjAddr: 0x48, symBinAddr: 0x6224, symSize: 0x48 }
+  - { offset: 0x750F2, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerC08addLocalD02toySo6UIViewC_tF', symObjAddr: 0x90, symBinAddr: 0x626C, symSize: 0x160 }
+  - { offset: 0x7513B, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerC09addRemoteD02toySo6UIViewC_tF', symObjAddr: 0x1F0, symBinAddr: 0x63CC, symSize: 0x160 }
+  - { offset: 0x75194, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerCfd', symObjAddr: 0x350, symBinAddr: 0x652C, symSize: 0x30 }
+  - { offset: 0x751B8, size: 0x8, addend: 0x0, symName: '_$s10AVSinchSDK17SinchVideoManagerCfD', symObjAddr: 0x3A8, symBinAddr: 0x655C, symSize: 0x3C }
+...

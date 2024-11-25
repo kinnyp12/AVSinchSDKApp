@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '11.0'
+
+target 'AVSinchSDK' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AVSinchSDK
+  pod 'SinchRTC', '~> 4.0' 
+
+  target 'AVSinchSDKTests' do
+    # Pods for testing
+  end
+
+end

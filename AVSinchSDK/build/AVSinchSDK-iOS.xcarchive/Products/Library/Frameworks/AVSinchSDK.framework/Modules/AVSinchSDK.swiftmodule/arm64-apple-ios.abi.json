@@ -1,0 +1,920 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AVSinchSDK",
+    "printedName": "AVSinchSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AVSinchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Sinch",
+        "printedName": "Sinch",
+        "declKind": "Import",
+        "moduleName": "AVSinchSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SinchCallDelegate",
+        "printedName": "SinchCallDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onIncomingCall",
+            "printedName": "onIncomingCall(call:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SINCall",
+                "printedName": "any Sinch.SINCall",
+                "usr": "c:objc(pl)SINCall"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK17SinchCallDelegateP010onIncomingD04callySo7SINCall_p_tF",
+            "mangledName": "$s10AVSinchSDK17SinchCallDelegateP010onIncomingD04callySo7SINCall_p_tF",
+            "moduleName": "AVSinchSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AVSinchSDK.SinchCallDelegate>",
+            "sugared_genericSig": "<Self where Self : AVSinchSDK.SinchCallDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCallEstablished",
+            "printedName": "onCallEstablished(call:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SINCall",
+                "printedName": "any Sinch.SINCall",
+                "usr": "c:objc(pl)SINCall"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK17SinchCallDelegateP02onD11Established4callySo7SINCall_p_tF",
+            "mangledName": "$s10AVSinchSDK17SinchCallDelegateP02onD11Established4callySo7SINCall_p_tF",
+            "moduleName": "AVSinchSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AVSinchSDK.SinchCallDelegate>",
+            "sugared_genericSig": "<Self where Self : AVSinchSDK.SinchCallDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCallEnded",
+            "printedName": "onCallEnded(call:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SINCall",
+                "printedName": "any Sinch.SINCall",
+                "usr": "c:objc(pl)SINCall"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK17SinchCallDelegateP02onD5Ended4callySo7SINCall_p_tF",
+            "mangledName": "$s10AVSinchSDK17SinchCallDelegateP02onD5Ended4callySo7SINCall_p_tF",
+            "moduleName": "AVSinchSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AVSinchSDK.SinchCallDelegate>",
+            "sugared_genericSig": "<Self where Self : AVSinchSDK.SinchCallDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10AVSinchSDK17SinchCallDelegateP",
+        "mangledName": "$s10AVSinchSDK17SinchCallDelegateP",
+        "moduleName": "AVSinchSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SinchManager",
+        "printedName": "SinchManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SinchManager",
+                "printedName": "AVSinchSDK.SinchManager",
+                "usr": "c:@M@AVSinchSDK@objc(cs)SinchManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AVSinchSDK12SinchManagerC6sharedACvpZ",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC6sharedACvpZ",
+            "moduleName": "AVSinchSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SinchManager",
+                    "printedName": "AVSinchSDK.SinchManager",
+                    "usr": "c:@M@AVSinchSDK@objc(cs)SinchManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AVSinchSDK12SinchManagerC6sharedACvgZ",
+                "mangledName": "$s10AVSinchSDK12SinchManagerC6sharedACvgZ",
+                "moduleName": "AVSinchSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callDelegate",
+            "printedName": "callDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AVSinchSDK.SinchCallDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvp",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvp",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AVSinchSDK.SinchCallDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SinchCallDelegate",
+                        "printedName": "any AVSinchSDK.SinchCallDelegate",
+                        "usr": "s:10AVSinchSDK17SinchCallDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvg",
+                "mangledName": "$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvg",
+                "moduleName": "AVSinchSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AVSinchSDK.SinchCallDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SinchCallDelegate",
+                        "printedName": "any AVSinchSDK.SinchCallDelegate",
+                        "usr": "s:10AVSinchSDK17SinchCallDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvs",
+                "mangledName": "$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvs",
+                "moduleName": "AVSinchSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvM",
+                "mangledName": "$s10AVSinchSDK12SinchManagerC12callDelegateAA0c4CallF0_pSgvM",
+                "moduleName": "AVSinchSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(appKey:appSecret:environmentHost:userId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK12SinchManagerC10initialize6appKey0F6Secret15environmentHost6userIdySS_S3StF",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC10initialize6appKey0F6Secret15environmentHost6userIdySS_S3StF",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVideoCall",
+            "printedName": "startVideoCall(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK12SinchManagerC14startVideoCall2toSo7SINCall_pSgSS_tF",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC14startVideoCall2toSo7SINCall_pSgSS_tF",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startAudioCall",
+            "printedName": "startAudioCall(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK12SinchManagerC14startAudioCall2toSo7SINCall_pSgSS_tF",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC14startAudioCall2toSo7SINCall_pSgSS_tF",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SinchManager",
+                "printedName": "AVSinchSDK.SinchManager",
+                "usr": "c:@M@AVSinchSDK@objc(cs)SinchManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AVSinchSDK@objc(cs)SinchManager(im)init",
+            "mangledName": "$s10AVSinchSDK12SinchManagerCACycfc",
+            "moduleName": "AVSinchSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "clientDidStart",
+            "printedName": "clientDidStart(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINClient",
+                    "printedName": "any Sinch.SINClient",
+                    "usr": "c:objc(pl)SINClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)clientDidStart:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC14clientDidStartyySo9SINClient_pSgF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "clientDidStart:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clientDidFail",
+            "printedName": "clientDidFail(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINClient",
+                    "printedName": "any Sinch.SINClient",
+                    "usr": "c:objc(pl)SINClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)clientDidFail:error:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC13clientDidFail_5errorySo9SINClient_pSg_s5Error_pSgtF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "clientDidFail:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callDidProgress",
+            "printedName": "callDidProgress(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)callDidProgress:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC15callDidProgressyySo7SINCall_pSgF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "callDidProgress:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callDidEstablish",
+            "printedName": "callDidEstablish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)callDidEstablish:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC16callDidEstablishyySo7SINCall_pSgF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "callDidEstablish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callDidEnd",
+            "printedName": "callDidEnd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)callDidEnd:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC10callDidEndyySo7SINCall_pSgF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "callDidEnd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "client",
+            "printedName": "client(_:didReceiveIncomingCall:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINCallClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCallClient",
+                    "printedName": "any Sinch.SINCallClient",
+                    "usr": "c:objc(pl)SINCallClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Sinch.SINCall)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINCall",
+                    "printedName": "any Sinch.SINCall",
+                    "usr": "c:objc(pl)SINCall"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AVSinchSDK@objc(cs)SinchManager(im)client:didReceiveIncomingCall:",
+            "mangledName": "$s10AVSinchSDK12SinchManagerC6client_22didReceiveIncomingCallySo13SINCallClient_pSg_So0J0_pSgtF",
+            "moduleName": "AVSinchSDK",
+            "objc_name": "client:didReceiveIncomingCall:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AVSinchSDK@objc(cs)SinchManager",
+        "mangledName": "$s10AVSinchSDK12SinchManagerC",
+        "moduleName": "AVSinchSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AVSinchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Sinch",
+        "printedName": "Sinch",
+        "declKind": "Import",
+        "moduleName": "AVSinchSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AVSinchSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SinchVideoManager",
+        "printedName": "SinchVideoManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(videoController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SinchVideoManager",
+                "printedName": "AVSinchSDK.SinchVideoManager",
+                "usr": "s:10AVSinchSDK17SinchVideoManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Sinch.SINVideoController)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SINVideoController",
+                    "printedName": "any Sinch.SINVideoController",
+                    "usr": "c:objc(pl)SINVideoController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AVSinchSDK17SinchVideoManagerC15videoControllerACSo08SINVideoG0_pSg_tcfc",
+            "mangledName": "$s10AVSinchSDK17SinchVideoManagerC15videoControllerACSo08SINVideoG0_pSg_tcfc",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addLocalVideo",
+            "printedName": "addLocalVideo(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK17SinchVideoManagerC08addLocalD02toySo6UIViewC_tF",
+            "mangledName": "$s10AVSinchSDK17SinchVideoManagerC08addLocalD02toySo6UIViewC_tF",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRemoteVideo",
+            "printedName": "addRemoteVideo(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AVSinchSDK17SinchVideoManagerC09addRemoteD02toySo6UIViewC_tF",
+            "mangledName": "$s10AVSinchSDK17SinchVideoManagerC09addRemoteD02toySo6UIViewC_tF",
+            "moduleName": "AVSinchSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10AVSinchSDK17SinchVideoManagerC",
+        "mangledName": "$s10AVSinchSDK17SinchVideoManagerC",
+        "moduleName": "AVSinchSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
