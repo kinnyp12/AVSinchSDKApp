@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-4.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.6 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name AVSinchSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import AVSinchSDK
+import Foundation
+import Sinch
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol SinchCallDelegate : AnyObject {
+  func onIncomingCall(call: any Sinch.SINCall)
+  func onCallEstablished(call: any Sinch.SINCall)
+  func onCallEnded(call: any Sinch.SINCall)
+}
+@objc @_inheritsConvenienceInitializers public class SinchManager : ObjectiveC.NSObject {
+  public static let shared: AVSinchSDK.SinchManager
+  weak public var callDelegate: (any AVSinchSDK.SinchCallDelegate)?
+  public func initialize(userId: Swift.String)
+  public func startVideoCall(to userId: Swift.String) -> (any Sinch.SINCall)?
+  public func startAudioCall(to userId: Swift.String) -> (any Sinch.SINCall)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension AVSinchSDK.SinchManager : Sinch.SINClientDelegate {
+  @objc dynamic public func clientDidStart(_ client: (any Sinch.SINClient)!)
+  @objc dynamic public func clientDidFail(_ client: (any Sinch.SINClient)!, error: (any Swift.Error)!)
+}
+extension AVSinchSDK.SinchManager : Sinch.SINCallDelegate {
+  @objc dynamic public func callDidProgress(_ call: (any Sinch.SINCall)!)
+  @objc dynamic public func callDidEstablish(_ call: (any Sinch.SINCall)!)
+  @objc dynamic public func callDidEnd(_ call: (any Sinch.SINCall)!)
+}
+extension AVSinchSDK.SinchManager : Sinch.SINCallClientDelegate {
+  @objc dynamic public func client(_ client: (any Sinch.SINCallClient)!, didReceiveIncomingCall call: (any Sinch.SINCall)!)
+}
+public class SinchVideoManager {
+  public init(videoController: (any Sinch.SINVideoController)?)
+  public func addLocalVideo(to view: UIKit.UIView)
+  public func addRemoteVideo(to view: UIKit.UIView)
+  @objc deinit
+}

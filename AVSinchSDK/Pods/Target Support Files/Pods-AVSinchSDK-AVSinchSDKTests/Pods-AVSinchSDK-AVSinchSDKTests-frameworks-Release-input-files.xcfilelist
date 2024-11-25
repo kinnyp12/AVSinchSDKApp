@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-AVSinchSDK-AVSinchSDKTests/Pods-AVSinchSDK-AVSinchSDKTests-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SinchRTC/Sinch.framework/Sinch
